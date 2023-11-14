@@ -1,0 +1,97 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin:0;
+padding:0;
+}
+
+.container{
+    max-width:1140px;
+    padding:0 15px ;
+    margin:0 auto;
+}
+
+.header{
+    width:100%;
+    color:white;
+    padding: 20px;
+    background: #151c39;
+    box-sizing: border-box;
+}
+
+.menu-item{
+    list-style: none;
+}
+
+.menu-link{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-title{
+    font-size: 48px;
+}
+
+.banner-title, .banner-description{
+    text-align: center;
+    color: #151c39;
+}
+
+.cards-section{
+    padding:50px 0px
+}
+
+.cards-title, .banner-description{
+    color:#151c39;
+    text-align: center;
+}
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    width: 80%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    text-align:center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+
+.card-button{
+    text-align: center;
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards-title, .card-text{
+    margin-bottom: 10px;
+} 
+
+.footer{
+    background-image: url(images/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+}
+
+.banner-section {
+    background-image: url('images/banner-bg.jpg');
+    height: 150px;
+}
